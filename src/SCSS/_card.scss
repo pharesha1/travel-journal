@@ -1,0 +1,41 @@
+.card-div{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.location-img{
+    margin: 10px;
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 5px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-icon{
+    height: 20px;
+    margin-right: 3px;
+}
+
+.location-link{
+    margin-left: 15px;
+    color: grey;
+}
+
+p{
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-div{
+        flex-direction: column;
+        margin: 10px;
+    }
+}
