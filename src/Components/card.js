@@ -10,7 +10,7 @@ const Card = ({card}) =>{
                 <div className="location-div">
                     <img src={icon} alt="icon" className="location-icon"/>
                     <span className="location-span">{card.location}</span>
-                    <a href={card.link} target="_blank" rel="noopener noreferrer" className="location-link">View on google maps</a>
+                    <a href={card.link} target="_blank" rel="noopener noreferrer" className="location-link">View on Wikipedia</a>
                 </div>
                 <h3>{card.title}</h3>
                 <span>{card.dates}</span>
